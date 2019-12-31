@@ -1,6 +1,275 @@
 /*zeynep's part*/
 
+body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+header {
+    display: flex;
+    background-color: #3D3E44;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1% 0;
+    
+}
 
+h1{
+    font-size: 10em;
+    margin: 0;
+}
+
+h1 span {
+    color: #00D483;
+}
+
+.centered {
+    margin: 5%;
+    width: 70%;
+
+}
+
+nav{
+    width: 60%;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    list-style: none;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    margin: 0 8px;
+}
+
+nav ul li a:hover {
+    color:#00D483 ;
+}
+
+nav ul li a:last-child{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    display: none;
+}
+
+
+.first {
+    display: inline-flex;
+    text-align: center;
+    background-size:cover;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding: 5% 0 10%;
+}
+
+.first::after {
+    content:"";
+    background: url(./img/back.jpeg) gray no-repeat ;
+    background-size: cover;
+    background-position: center; 
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+
+.avatars {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 3px;
+
+}
+
+.first p {
+    font-size: 1.7em;
+}
+
+.centered button {
+    background-color: #00D483;
+    padding: 1%;
+    width: 15rem;
+    border-radius: 5%;
+    border: none;
+    
+
+    
+}
+ .centered button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    word-break: keep-all;
+
+}
+
+
+div.second {
+    cursor: pointer;
+    background-color: #00D483 ;
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.develop {
+  
+   text-align: center;
+   color: white;
+   width: 18%;
+   padding: 3% 2%;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    div.second {
+        background-color: #00D483 ;
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .develop {
+        width: 50%;
+    
+     }
+
+
+     h1 {
+         font-size: 7em;
+     }
+
+     .first p {
+         font-size: 1.3em;
+     }
+
+     .centered button a {
+         font-size: 1.3em;
+     }
+
+
+     
+     .avatars img{
+         width: 5em;
+     }
+
+
+     .navbar {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+     }
+
+     .icon {
+         display: inline-block;
+         margin-right: 15px;
+         color: white;
+
+     }
+
+     nav {
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         position: relative;
+     }
+
+
+    .icon:hover .navbar {
+        display: flex;
+        color: #000;
+        flex-direction: column;
+       
+    }
+
+
+    span.icon:hover {
+        color:#00D483 ;
+    }
+
+
+    @media only screen and (max-width: 900px) {
+        h1 {
+            font-size: 5em;
+        }
+
+        .first p {
+            font-size: 1em;
+        }
+
+        .centered button {
+            width: 9em;
+        }
+
+        .centered button a {
+            font-size: 1em;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        h1 { 
+            font-size: 3em;
+        }
+
+        .avatars {
+            display:none;
+        }
+
+        .first p {
+            font-size: 1.1em;
+        }
+
+        .first {
+            height: 500px;
+        }
+
+        .develop {
+            width: 75%;
+        }
+    } 
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+}
 
 
 /*Samar's first part*/
