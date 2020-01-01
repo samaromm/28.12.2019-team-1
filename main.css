@@ -1,5 +1,11 @@
 /*zeynep's part*/
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
      font-family: Arial, Helvetica, sans-serif;
  }
@@ -110,6 +116,7 @@ padding: 3px;
 .centered button {
     background-color: #00D483;
     padding: 1%;
+    margin-top: 3%;
     width: 15rem;
     border-radius: 5%;
     border: none;
@@ -232,18 +239,24 @@ div.second {
         .centered button a {
             font-size: 1em;
         }
+
+        .centered {
+            margin: 0;
+            width: 90%;
+        }
     }
 
     @media only screen and (max-width: 550px) {
         h1 { 
-            font-size: 3em;
-        }
-
-        .avatars {
-            display:none;
+            font-size: 4.5em;
         }
 
         .first p {
+        
+            display:none;
+        }
+
+        .avatars {
             font-size: 1.1em;
         }
 
@@ -253,6 +266,10 @@ div.second {
 
         .develop {
             width: 75%;
+        }
+
+        .centered {
+            width: 95%;
         }
     } 
 
