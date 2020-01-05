@@ -226,6 +226,107 @@ div.second {
 
 /*Yusra's first part*/
 
+h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+	}    
+
+
+.uppercontainer{
+    display:flex;
+    margin:auto;
+    padding: 200px ;
+    flex-direction: row;
+}
+
+
+	.upperpart{
+   	color:black;
+	word-wrap: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+    font-size: 20px;
+    }
+
+ 	.quote{
+  	background-color:#00D483 ;
+ 	color:white;  
+ 	border: 1px solid;
+ 	border-radius: .5em;
+ 	height: 320px;
+	width:30%; 
+    text-align: left;
+    margin-right: 180px;
+    
+}
+
+
+.smallh2{
+    display:inline-block;
+    flex-direction: column;
+    width:30%;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+
+
+}
+
+.smallp{
+    display: inline-block;
+    flex-direction: column;
+    width:30%;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+padding-bottom: 300px; 
+}
+
+
+#meet{
+    background-color: #C3CAC6;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 30px;
+    padding-left:40px;
+    padding-right:40px;
+    padding: 100px;
+ }
+
+
+
+
+/*
+
+ 
+
+	.smallh2{
+    display: inline-block;
+    flex-direction: row;
+    width:33.33%;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+    } 
+
+	
+	.smallp{
+    height: 40px;
+    font-size: 20px;
+    width:70%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+ 	vertical-align: middle;
+ 	text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+      }
+
+   
+*/
 
 
 
